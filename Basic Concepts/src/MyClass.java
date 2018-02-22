@@ -8,11 +8,9 @@ public class MyClass {
     	// Print a string on the console.
         System.out.println("Hello World"); 
         
-        
-        /*************
-          This is the second line printed
-         *************/
-        System.out.println("Hello World again");
+        //Primitive operation
+        int x = 6 + 3;
+        System.out.println("The value is: "+x);
         
     }
 }

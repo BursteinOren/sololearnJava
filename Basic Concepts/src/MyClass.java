@@ -10,7 +10,7 @@ public class MyClass {
         System.out.print("Enter integer number here: "); 
         
         Scanner myVar = new Scanner(System.in);
-        System.out.println(myVar.nextLine()+5);
+        System.out.println(myVar.nextLine());
         
         
         

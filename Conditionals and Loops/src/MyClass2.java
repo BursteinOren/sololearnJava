@@ -3,15 +3,12 @@ public class MyClass2 {
     public static void main(String[ ] args) {
 
 
-    	int x = 1;
-
-    	while(x > 0) {
-    	 System.out.println(x);
-    	  if(x == 4) {
-    	    break;
-    	  }
-    	  x++;
-    	}
+    	for(int x=10; x<=40; x=x+10) {
+    		  if(x == 30) {
+    		    continue;
+    		  }
+    		  System.out.println(x);
+    		}
     	
     		
     }

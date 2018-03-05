@@ -11,7 +11,7 @@ public class MyClass {
         
         Scanner myVar = new Scanner(System.in);
         System.out.println(myVar.nextLine());
-        
+        myVar.close();
         
         
         

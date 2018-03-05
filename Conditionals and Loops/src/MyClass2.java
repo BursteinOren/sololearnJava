@@ -1,10 +1,11 @@
 
 public class MyClass2 {
     public static void main(String[ ] args) {
-    	if (2 < 4) {
-    		System.out.println("Hi");
-    	} else
-			System.out.println("Bye");
+    	int x = 1;
+    	do {
+    	  System.out.println(x);
+    	  x++;
+    	} while(x < 0);
     		
     }
 }

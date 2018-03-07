@@ -16,11 +16,8 @@ public class Arrays {
 		/**
 		 * create array sample
 		 */
-		int[] arr = new int[5];
-		arr[2]=42;
-		for (int i=0;i<5;i++) {
-			System.out.println("The value of cell "+i+" is "+arr[i]);
-		}
+		String[] myNames = { "A", "B", "C", "D"};
+		System.out.println(myNames[2]);
 		
 	}
 

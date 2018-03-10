@@ -18,12 +18,10 @@ public class Arrays {
 		/**
 		 * create array sample
 		 */
-		int[ ] primes = {2, 3, 5, 7};
-
-		for (int t: primes) {
-		   System.out.println(t); 
-		   
-		}
+		int[ ][ ] sample = { {1, 2, 3}, {4, 5, 6} }; 
+		int x = sample[1][0];
+		System.out.println(x);
+	
 	}
 
 }

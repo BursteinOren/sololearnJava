@@ -18,9 +18,9 @@ public class Arrays {
 		/**
 		 * create array sample
 		 */
-		int[ ][ ] sample = { {1, 2, 3}, {4, 5, 6} }; 
-		int x = sample[1][0];
-		System.out.println(x);
+		String array[ ][ ] =  { {"Hey", "John", "Bye"},
+				{"John", "Johnson", "Hello"} }; 
+				System.out.println(array[1][1]);
 	
 	}
 

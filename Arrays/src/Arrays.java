@@ -22,6 +22,7 @@ public class Arrays {
 
 		for (int t: primes) {
 		   System.out.println(t); 
+		   
 		}
 	}
 

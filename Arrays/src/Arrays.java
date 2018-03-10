@@ -18,9 +18,19 @@ public class Arrays {
 		/**
 		 * create array sample
 		 */
-		String array[ ][ ] =  { {"Hey", "John", "Bye"},
-				{"John", "Johnson", "Hello"} }; 
-				System.out.println(array[1][1]);
+		int[ ][ ] myArr = { {1, 2, 3}, {4}, {5, 6, 7} };
+		myArr[0][2] = 42;
+		int x = myArr[1][0]; // 4
+		
+		for (int i=0; i< myArr.length;i++) {
+			for (int j=0; j<myArr[i].length;j++) {
+				if (j>0) {
+					System.out.print("   -   ");
+				}
+				System.out.print(myArr[i][j]);
+			}
+			System.out.println();
+		}
 	
 	}
 

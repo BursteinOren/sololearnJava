@@ -3,16 +3,13 @@ public class myClassChapter3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		   sayHello("David");
-		   sayHello("Amy");
-		   sayHello();
+		int x = sum(2,5);
+		System.out.println(x);
 		
 		
 	}
-	static void sayHello() {
-		System.out.println("Hello world!");
-	}
-	static void sayHello(String name) {
-		System.out.println("Hello "+name);
+
+	static int sum(int val1,int val2) {
+		return val1 +val2;
 	}
 }

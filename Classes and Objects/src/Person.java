@@ -15,7 +15,7 @@ public class Person {
 			this.name = name;
 		}
 	}
-	public String getNmae() {
+	public String getName() {
 		return this.name;
 	}
 	Person(){

@@ -11,6 +11,13 @@ public class myClassChapter3 {
 		Animal dog = new Animal();
 		dog.bark();
 		
+		System.out.println("----------------------");
+		Vehicle v = new Vehicle();
+		v.setColor("blue");
+		v.horn();
+		System.out.println(v.getColor());
+		
+		
 		
 	}
 

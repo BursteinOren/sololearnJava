@@ -1,11 +1,17 @@
 
 public class Vehicle {
-	int maxSpeed;
-	int wheels;
-	String color;
-	double fuelCapacity;  
+	private int maxSpeed;
+	private int wheels;
+	private String color;
+	private double fuelCapacity;  
 
-	void horn() {
+	public void horn() {
 		System.out.println("Beep!");
 	}  
+	public String getColor() {
+		return this.color;
+	}
+	public void setColor(String color) {
+		this.color=color;
+	}
 }

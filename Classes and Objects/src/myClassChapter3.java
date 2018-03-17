@@ -12,10 +12,12 @@ public class myClassChapter3 {
 		dog.bark();
 		
 		System.out.println("----------------------");
-		Vehicle v = new Vehicle();
+		Vehicle v1 = new Vehicle();
+		Vehicle v2 = new Vehicle("Green");
 		//v.setColor("Blue");
-		v.horn();
-		System.out.println(v.getColor());
+		v1.horn();
+		System.out.println(v1.getColor());
+		System.out.println(v2.getColor());
 		
 		
 		

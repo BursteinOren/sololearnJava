@@ -13,8 +13,11 @@ public class Vehicle {
 	}
 	public void setColor(String color) {
 		this.color=color;
-	}
-	Vehicle(){
+	}	 
+	public Vehicle(){
 		setColor("Red");
+	}
+	public Vehicle(String str){
+		setColor(str);
 	}
 }

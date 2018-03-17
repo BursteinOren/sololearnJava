@@ -15,9 +15,9 @@ public class Vehicle {
 		this.color=color;
 	}	 
 	public Vehicle(){
-		setColor("Red");
+		this.setColor("Red");
 	}
 	public Vehicle(String str){
-		setColor(str);
+		this.setColor(str);
 	}
 }

@@ -13,7 +13,7 @@ public class myClassChapter3 {
 		
 		System.out.println("----------------------");
 		Vehicle v = new Vehicle();
-		v.setColor("blue");
+		//v.setColor("Blue");
 		v.horn();
 		System.out.println(v.getColor());
 		

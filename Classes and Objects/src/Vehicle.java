@@ -14,4 +14,7 @@ public class Vehicle {
 	public void setColor(String color) {
 		this.color=color;
 	}
+	Vehicle(){
+		setColor("Red");
+	}
 }

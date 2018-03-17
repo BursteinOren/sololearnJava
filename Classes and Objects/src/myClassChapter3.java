@@ -7,6 +7,11 @@ public class myClassChapter3 {
 		System.out.println(x);
 		
 		
+		System.out.println("----------------------");
+		Animal dog = new Animal();
+		dog.bark();
+		
+		
 	}
 
 	static int sum(int val1,int val2) {

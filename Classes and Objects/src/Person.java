@@ -10,16 +10,17 @@ public class Person {
 	public int getAge() {
 		return this.age;
 	}
+	
 	public void setName(String name){
 		if (name != null) {
-			this.name = name;
+	 		this.name = name;
 		}
 	}
 	public String getName() {
 		return this.name;
 	}
 	Person(){
-		this.setName("John");
+		this.setName("Danni");
 	}
 	Person(String name){
 		if (name != null) {

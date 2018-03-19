@@ -1,5 +1,4 @@
-import samples.Vehicle;
-import samples.Person;
+import samples.*;
 
 public class myClassChapter3 {
 	public static final double PI = 3.141592654; 

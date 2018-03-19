@@ -1,10 +1,8 @@
 
 public class myClassChapter3 {
+	public static final double PI = 3.141592654; 
 	public static void main(String[ ] args) {
-	    Counter c1 = new Counter();
-	    Counter c2 = new Counter();
-	    Counter c3 = new Counter();
-	    System.out.println(Counter.COUNT);
+		System.out.println(PI);
 	  }
 	  
 }

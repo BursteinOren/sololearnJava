@@ -1,6 +1,7 @@
+package samples;
 
 public class Animal {
-	// bark method
+// bark method
 void bark() {
 	System.out.println("Woof-Woof");
 }

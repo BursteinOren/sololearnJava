@@ -4,4 +4,7 @@ public class Animal {
 	  public void eat() {
 	    System.out.println("Animal eats");
 	  }
+	  public void makeSound() {
+		   System.out.println("Hi");
+		   }
 }

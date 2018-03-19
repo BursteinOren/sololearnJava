@@ -5,6 +5,7 @@ public class MyClass {
 		// TODO Auto-generated method stub
 	Dog d = new Dog();
     d.eat();
+    d.makeSound();
 	}
 
 }

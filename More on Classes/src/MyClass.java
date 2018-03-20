@@ -6,6 +6,7 @@ public class MyClass {
 	Dog d = new Dog();
     d.eat();
     d.makeSound();
+    
 	}
 
 }

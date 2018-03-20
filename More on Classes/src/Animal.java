@@ -1,6 +1,6 @@
 
-abstract class Animal {
-	protected int legs;
-	  abstract void eat();
-	  abstract void makeSound();
+interface Animal {
+	//static int legs;
+	   void eat();
+	   void makeSound();
 }

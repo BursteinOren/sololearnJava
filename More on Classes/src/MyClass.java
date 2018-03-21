@@ -13,8 +13,12 @@ public class MyClass {
 	  System.out.println("Wooooo");
 	    }
 	  };
+	  m1.start();
+	  //Outputs "Wooooo"
+	  
       Machine m2 = new Machine();
       m2.start();
+      //Outputs "Starting..."
 	}
 
 	

@@ -1,6 +1,7 @@
 
-interface Animal {
-	//static int legs;
-	   void eat();
-	   void makeSound();
+public class Animal {
+	String name;
+	Animal(String n){
+		name = n;
+	}	 
 }

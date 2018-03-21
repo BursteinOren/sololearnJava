@@ -1,25 +1,8 @@
-class Machine {
-  public void start() {
-    System.out.println("Starting...");
-  }
-}  
-public class MyClass {
-
-	public static void main(String[] args) {
-
-    
-	Machine m1 = new Machine() {
-	@Override public void start() {
-	  System.out.println("Wooooo");
-	    }
-	  };
-	  m1.start();
-	  //Outputs "Wooooo"
-	  
-      Machine m2 = new Machine();
-      m2.start();
-      //Outputs "Starting..."
+class MyClass {
+	public static void main(String[ ] args) {
+    Animal a1 = new Animal("Robby");
+    Animal a2 = new Animal("Robby");
+    System.out.println(a1 == a2);
 	}
-
-	
 }
+//Outputs false

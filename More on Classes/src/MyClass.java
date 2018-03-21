@@ -1,3 +1,5 @@
+import java.awt.*;
+
 class MyClass {
 	public static void main(String[ ] args) {
     Animal a1 = new Animal("Robby");
